@@ -21,7 +21,7 @@ var randomDiceImageSrc2 = "images/dice" + randomNumber2 + ".png";
 document.querySelectorAll("img")[1].setAttribute("src", randomDiceImageSrc2);
 
 
-// If player 1 gets a higher die, title will change to "Player 1 Wins!"
+// Title changes depending outcome
 
 if (randomNumber1 > randomNumber2) {
   document.querySelector("h1").innerHTML = "Player 1 Wins!";
